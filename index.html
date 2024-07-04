@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav container">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/img/logo-small.png" alt=""></a>
+                </div>
+                <div class="nav-right">
+                    <button class="nav-btn">Home</button>
+                    <button class="btn-active">API</button>
+                    <div class="search">
+                        <input type="text" id="search" placeholder="Search">
+                    </div>
+                </div>
+
+                <div class="menu-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="about">
+                <img src="https://www.themealdb.com/images/meal-icon.png" alt="">
+                <div class="about-text">
+                    <h1>Welcome to TheMealDB</h1>
+                    <p>Welcome to TheMealDB: An open, crowd-sourced database of Recipes from around the world. <br>
+                        We also offer a <a href="">free recipe API</a> for anyone wanting to use it, with additional
+                        features for
+                        subscribers.</p>
+                    <button class="paypal-btn"><img src="assets/svg/paypal.svg" alt=""></button>
+                    <p>Click button above to upgrade free API to premium for $3 <br>
+                        Currently (54 supporters)</p>
+                </div>
+                <img src="https://www.themealdb.com/images/meal-icon.png" alt="">
+            </div>
+            <div class="main-search">
+                <div class="search-input">
+                    <input type="text" placeholder="Search for a Meal...">
+                    <button><img src="assets/svg/search.svg" alt=""></button>
+                </div>
+                <div class="elements">
+                    <img src="assets/img/soup-icon.png" alt="">
+                    <b>Total Meals: 303</b>
+                    <img src="assets/img/meat-icon.png" alt="">
+                    <b>Total Ingredients: 575</b>
+                    <img src="assets/img/file-icon.png" alt="">
+                    <b>Images: 303</b>
+                </div>
+            </div>
+            <div class="latest-meals">
+                <h3>Latest Meals</h3>
+                <div class="latest-meals-container">
+                </div>
+            </div>
+
+            <div class="popular-ingredients">
+                <h3>Popular Ingredients</h3>
+                <div class="ingredients-block">
+
+                </div>
+            </div>
+
+            <div class="random-meals">
+                <h3>Random Meals</h3>
+                <div class="meals-content"></div>
+            </div>
+
+            <div class="random-ingredients">
+                <h3>Random Ingredients</h3>
+                <div class="random-ingredients-block"></div>
+            </div>
+
+            <div class="category-country">
+                <h3>Browse Country</h3>
+                <div class="flags">
+                    
+                </div>
+            </div>
+
+            <div class="category-letter">
+                <h3>Browse by Name</h3>
+                <div class="letters">
+                    <h2 id="first-letters">
+                        
+                    </h2>
+                </div>
+            </div>
+
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>© 2024 TheMealDB <br>Proudly built in the UK</p>
+                    <img src="https://www.themealdb.com/images/icons/flags/big/16/gb.png" alt="">
+                </div>
+                <div class="footer-center">
+                    <div class="socials">
+                        Socials: <a href="https://m.facebook.com/TheDataDB/"><img
+                                src="https://www.themealdb.com/images/facebook_icon.png" alt=""></a>
+                        <a href="https://x.com/TheAudioDB"><img src="https://www.themealdb.com/images/twitter_icon.png"
+                                alt=""></a>
+                        <a href="https://discord.com/invite/pFvgaXV"><img
+                                src="https://www.themealdb.com/images/discord_icon.png" alt=""></a>
+                    </div>
+                    <div class="our-projects">
+                        <a href="https://www.thecocktaildb.com/"><img
+                                src="https://www.themealdb.com/images/logo-tcdb.png" alt=""></a>
+                        <a href="https://www.theaudiodb.com/"><img src="https://www.themealdb.com/images/logo-tadb.png"
+                                alt=""></a>
+                        <a href="https://www.thesportsdb.com/"><img src="https://www.themealdb.com/images/logo-tsdb.png"
+                                alt=""></a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <a href="">About</a>
+                    <a href="">Faq</a>
+                    <a href="">Contact</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
